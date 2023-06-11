@@ -1,0 +1,171 @@
+.head_nav {
+
+	background: #4A4BBA;
+}
+
+#nav li.selected {
+	border-radius: 5px;
+	background-color: #4a4bba !important;
+	box-shadow: 0 4px 20px 0px #22244e, 0 7px 12px -5px #717294;
+}
+
+.title_wr {
+	/* background-image: url(../img/back_int.png); картинка инфо */
+	box-shadow: 0px -10px 9px 10px rgba(0,0,0,0.5);
+}
+
+.head_title p {
+	font-family: MyriadPro-Cond;
+	color: #159884;
+	
+	}
+	
+	
+/*	
+	Тело
+	########################
+	3 колонки верхние 
+	########################
+*/
+
+
+.adobe {
+	width:100%;
+	height: 100%;
+	padding-bottom:40px;
+	display: table-cell;
+
+}
+
+.adobe [class^="a_"] {
+	display:table-row;
+	width: 720px;
+	height: 300px;
+	float:right;
+	position:relative;
+	padding-left: 120px;
+}
+
+.a_ill {
+	margin:0 40px;
+}
+
+
+.up {
+	height:60px;
+	width: 720px;
+	display: table-caption;
+	font-family: MyriadPro-Cond;
+	position:relative;
+}
+
+.up_text {
+	position:absolute; 
+	width: inherit;
+	text-align: center; vertical-align: bottom;
+	font-size : 36px;
+	color: #fff;
+
+	bottom:0;
+}
+
+.a_ps .up {
+background: #4A4BBA;
+/* background-image: url(../img/ps.png); */
+/* background-position: 50% 30%; */
+background-repeat: no-repeat;
+border-radius: 3px 3px 0 0;
+}
+
+img {
+	color: #159884;
+}
+
+.a_ill .up {
+/* background: #4A4BBA; */
+/* background-image: url(../img/ai.png); */
+/* background-size: 30%;
+background-position: 50% 30%;
+background-repeat: no-repeat;
+border-radius: 3px 3px 0 0; */
+}
+
+.down {
+	background: #fff;
+	height:100%;
+	display: table-cell;
+	width: auto;
+	/* border-color: rgb(34, 34, 34); не исп */
+	border: solid 1px #A1A1EC;
+	border-style: none solid solid; 
+	border-radius: 0 0 3px 3px;
+	padding: 4px;
+}
+
+.down_text {
+	height: 140;
+	overflow: hidden;
+	width: inherit;
+	text-align: center; vertical-align: bottom;
+	font-family: MyriadPro-Light;
+	text-align:justify;
+	padding: 12px;
+	font-size : 16px;
+	color: #3c3c8b;
+	bottom:0;
+	
+}
+.down_butt {
+
+	width: inherit;
+	text-align: center; vertical-align: bottom;
+	font-size : 36px;
+
+	bottom:0;
+	font-family: MyriadPro-Cond;
+	font-size : 18px;
+	padding: 4 0;
+	}
+
+/* .a_ps .down a {
+color: #4A4BBA;
+} */
+
+/* .a_ill .down a {
+color: #4A4BBA;
+
+} */
+
+.a_inD .down a {
+color: #4A4BBA;
+
+}
+
+/* .a_ps .down {
+border-color: #4A4BBA;
+} */
+/* 
+.a_ill .down {
+border-color: #4A4BBA;
+} */
+
+.a_inD .down {
+border-color: #4A4BBA;
+}
+
+.down p{
+padding:0;
+margin:4;
+}
+
+.pip {
+	margin-top: 50px;
+}
+
+
+
+.footer_wr{
+/* border: 1px solid #000;не исп*/
+	background: #4A4BBA;
+	z-index:-1;
+}
